@@ -1,0 +1,51 @@
+EXERCÍCIO 1: Aquecimento
+Crie um programa em Python que declare a seguinte matriz 3x3 preenchida com números inteiros à sua escolha:
+
+tabela = [
+    [10, 20, 30],
+    [40, 50, 60],
+    [70, 80, 90]
+]
+
+Missão: 
+a) Escreva um comando `print` para mostrar na tela o número que está exatamente no centro da matriz.
+b) Usando dois laços `for` (um dentro do outro), imprima todos os números da matriz, um por linha.
+
+EXERCÍCIO 2: Contador do Supermercado
+
+Imagine que uma matriz 2x3 guarda o valor dos produtos em dois corredores de um supermercado.
+
+corredores = [
+    [5.50, 10.00, 4.00],
+    [12.00, 3.50, 8.00]
+]
+
+
+Missão: Crie uma variável `soma_total` começando em 0. Use laços de repetição para percorrer toda a matriz, somar todos os valores à variável e, no final, imprima: `"O valor total dos produtos é: R$ [resultado]"`.
+
+EXERCÍCIO 3: O Maior da Turma
+
+A matriz abaixo guarda as notas de 3 alunos em 3 provas diferentes.
+
+notas = [
+    [7.5, 8.0, 6.0],
+    [9.0, 5.5, 9.5],
+    [4.0, 7.0, 8.5]
+]
+
+
+Missão: Crie um programa que vasculhe a matriz inteira para encontrar qual foi a nota mais alta tirada. Guarde esse valor numa variável chamada `maior_nota` e imprima-a no final.*(Dica: crie a variável `maior_nota` valendo 0 no início e use um `if` dentro dos laços para substituí-la sempre que encontrar um número maior).
+
+EXERCÍCIO 4: A Diagonal Principal
+
+Declare uma matriz 3x3 contendo os números de 1 a 9 em ordem.
+Missão: Escreva um código que use laços de repetição para percorrer a matriz, mas que imprima na tela **apenas** os números que pertencem à Diagonal Principal (ou seja, quando o número da linha for exatamente igual ao número da coluna).
+
+EXERCÍCIO 5: O Sistema de Cinema VIP
+
+Você foi contratado para criar o sistema de reservas de um cinema VIP. Crie uma matriz 3x3 onde todas as posições comecem com o número `0` (indicando cadeira vazia).
+
+Missão:
+1.  Peça para o usuário digitar a Linha (0 a 2) e a Coluna (0 a 2) que ele deseja reservar.
+2.  Crie uma condicional (`if/else`): Se a coordenada escolhida estiver com `0`, altere o valor da matriz nessa posição para `1` e imprima: `"Reserva feita com sucesso!"`. Se a coordenada já estiver com `1`, imprima: `"Erro: Esta cadeira já está ocupada."`
+3.  No final, imprima a matriz completa para mostrar como ficou a sala.
